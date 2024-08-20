@@ -2,5 +2,14 @@
     <string name="app_name">JopFinderApp</string>
     <string name="jobfinder">JobFinder</string>
     <string name="jopfinder_icon">jopFinder icon</string>
-    <string name="explore_your_dream_job">Explore Your Dream\n Jobs</string>
+    <string name="explore_your_dream_job">Explore Your Dream \n Jobs</string>
+    <string name="filled_small_icon">filled small icon</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="i_m_happy_to_see_you_again">I\'m happy to see you again</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_account">Create account</string>
 </resources>
