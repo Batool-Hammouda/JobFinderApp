@@ -2,5 +2,5 @@
     <string name="app_name">JopFinderApp</string>
     <string name="jobfinder">JobFinder</string>
     <string name="jopfinder_icon">jopFinder icon</string>
-    <string name="explore_your_dream_job">Explore Your Dream Jobs</string>
+    <string name="explore_your_dream_job">Explore Your Dream\n Jobs</string>
 </resources>
