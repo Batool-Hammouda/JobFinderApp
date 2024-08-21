@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/splash_screen_background"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/jopfinder_icon"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/job_finder_icon"
+         />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jobfinder"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/firstSentance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explore_your_dream_job"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
