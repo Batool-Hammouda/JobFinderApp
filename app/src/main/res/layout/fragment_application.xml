@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ApplicationFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        app:title="Application"
+        app:titleTextColor="@color/white"
+        android:background="@color/splash_screen_background"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/jobFinderTabs"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        app:tabGravity="fill"
+        app:tabTextColor="@color/grey"
+        app:tabIndicatorColor="@color/splash_screen_background"
+        app:tabIndicatorHeight="4dp"
+        app:tabSelectedTextColor="@color/splash_screen_background"
+        app:tabIndicatorFullWidth="true"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/review" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_suitable" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/interview" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/jobsScreenViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

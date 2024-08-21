@@ -1,5 +1,6 @@
 package com.example.jopfinderapp
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
@@ -32,8 +33,9 @@ class MainActivity : AppCompatActivity() {
 
         signIn?.setOnClickListener {
             //next branch this button will open the next activity
-            Toast.makeText(this, "signed in", Toast.LENGTH_SHORT).show()
+            startActivity(Intent(this, WelcomeActivity::class.java))
         }
+
 
         forgotPassword.setOnClickListener {
             Toast.makeText(this, "forgot password ", Toast.LENGTH_SHORT).show()
@@ -67,7 +69,7 @@ class MainActivity : AppCompatActivity() {
     }
 
    private fun isValidEmail(email: String): Boolean {
-        val emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\$"
+        val emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]+\$"
         return email.matches(emailRegex.toRegex())
     }
 }

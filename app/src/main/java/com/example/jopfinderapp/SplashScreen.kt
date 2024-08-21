@@ -10,8 +10,6 @@ import android.os.Handler
 import android.os.Looper
 import android.view.WindowInsets
 import android.view.WindowInsetsController
-import android.view.WindowManager
-import androidx.appcompat.app.AppCompatActivity
 
 @SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {

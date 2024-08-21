@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_icon"
+        android:src="@drawable/job_finder_icon_filled"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"/>
+
+    <ImageView
+        android:id="@+id/welcomeImage"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/welcome_image"
+        android:src="@drawable/welcome_image"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/welcomeHunter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/welcome_job_hunter"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/exploreJobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/i_m_happy_to_see_you_again_let_s_explore_new_n_dream_jobs_for_your_career"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/explore"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/start_explore_jobs"
+        android:backgroundTint="@color/splash_screen_background"
+        app:cornerRadius="13dp"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>
