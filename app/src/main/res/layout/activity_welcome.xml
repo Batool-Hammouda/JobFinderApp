@@ -56,7 +56,8 @@
         android:text="@string/start_explore_jobs"
         android:backgroundTint="@color/splash_screen_background"
         app:cornerRadius="13dp"
-        android:textSize="18sp"/>
+        android:textSize="18sp"
+        tools:ignore="VisualLintButtonSize" />
 
 
 
