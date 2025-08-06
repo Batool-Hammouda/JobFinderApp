@@ -1,5 +1,5 @@
 ##
-This project involves building the UI for a Job Finder application using XML and Kotlin. The lists in the app contain only dummy data, with no real data integration.
+This project involves building the UI for a Job Finder application using XML and Kotlin. The list in the app contains only dummy data, with no real data integration.
 
 ###
 <img src="https://github.com/user-attachments/assets/90c42786-9bcc-4c7b-ba6d-182ac402fa9e"  width="300"/>
